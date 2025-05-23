@@ -10,8 +10,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" />
 </head>
-<body>
-    <nav class="w-full flex justify-around items-center h-auto mb-10 bg-sky-600 py-2">
+<body class="bg-gray-200">
+    <nav class="w-full flex justify-around items-center h-auto mb-5 bg-sky-600 py-2">
       <div class="flex justify-center items-center w-[50%] ">
 
         <div class="px-2">
@@ -42,34 +42,452 @@
     <div class="w-full  flex justify-center items-center flex-col">
         <div class="w-[70%] flex justify-center items-center flex-col">
 
-            <div class="w-full rounded-3xl mb-10">
+            <div class="w-full rounded-3xl mb-5">
                 <img src="./images/cover.png" class="rounded-2xl">
             </div>
 
-            <div class="w-full h-auto flex justify-between items-center">
-                <div class="flex  items-center">
-                    <img src="./images/member-4.png" class="size-20">
-                    <div class="ml-5">
-                        <p class="text-3xl mb-5">Jack Nicholson</p>
-                        <p class="text-gray-500 mb-5">120 Friends -20 Mutuak</p>
-                        <div class="flex justify-center items-center mb-5">
-                            <img src="./images/member-1.png" class="size-8 rounded-full ">
-                            <img src="./images/member-2.png" class="size-8 rounded-full ">
-                            <img src="./images/member-3.png" class="size-8 rounded-full ">
-                            <img src="./images/member-4.png" class="size-8 rounded-full ">
+            <div class="w-full h-auto flex bg-white rounded justify-between items-center shadow-2xl p-5">
+                <div class="flex w-[50%]">
+                    <img src="./images/member-4.png" class="size-24 rounded-2xl">
+                    <div class="ml-5 flex justify-items-start items-center flex-col">
+                        <p class="text-2xl px-2 mb-2">Jack Nicholson</p>
+                        <p class="text-gray-500 mb-2" >120 Friends -20 Mutuak</p>
+                        <div class="flex justify-items-start items-center w-full">
+                            <img src="./images/member-1.png" class="size-6 mx-0.5 rounded-full ">
+                            <img src="./images/member-2.png" class="size-6 mx-0.5 rounded-full ">
+                            <img src="./images/member-3.png" class="size-6 mx-0.5 rounded-full ">
+                            <img src="./images/member-4.png" class="size-6 mx-0.5 rounded-full ">
                         </div>
                     </div>
                 </div>
-                <div class="flex justify-end items-center flex-col">
-                    <div class="">
-                        <button class="bg-slate-400 p-3 mx-2  text-black"><i class="ri-team-fill text-black   "></i>Friends</button>
-                        <button class="bg-blue-400 p-3 mx-2 text-white"><i class="ri-message-2-fill text-white "></i> Message</button>
+                <div class="flex  flex-col ">
+                    <div class=" flex justify-end mb-2">
+                        <button class="bg-gray-300  px-3 py-2 mr-2 rounded text-black"><i class="ri-team-fill text-black    "></i>Friends</button>
+                        <button class="bg-blue-400 px-3 py-2   rounded text-white"><i class="ri-message-2-fill text-white  "></i> Message</button>
                     </div>
-                    <div>
-                       <i class="ri-more-fill"></i>
+                    <div class="flex justify-end  ">
+                       <i class="ri-more-fill bg-gray-300 px-2  text-2xl"></i>
                     </div>
                 </div>
             </div>
+
+
+
+
+                <div class="w-full flex ">
+                    <div class="w-[40%]  m-3 flex flex-col">
+                        <div class="flex flex-col justify-items-start shadow-2xl bg-white rounded p-3 mb-6">
+                            <h1 class="text-2xl font-bold mb-3">Intro</h1>
+                            <div class="text-center mb-5 text-gray-600 flex"><p>Beleive in your self and you can do unbeleivable things <i class="ri-emotion-happy-line text-yellow-400"></i></p> </div>
+                            <hr class="mb-3 text-gray-400">
+                            <div class="w-full flex flex-col mb-3 justify-items-start">
+                                
+                                <div class="flex mb-2 text-gray-600 "><img src="./images/profile-study.png" class="w-6"><p class="px-5">Director at 99 media limited</p></div>
+                                <div class="flex mb-2 text-gray-600 "><img src="./images/profile-study.png" class="w-6"><p class="px-5">Director at 99 media limited</p></div>
+                                <div class="flex mb-2 text-gray-600 "><img src="./images/profile-study.png" class="w-6"><p class="px-5">Director at 99 media limited</p></div>
+                                <div class="flex mb-2 text-gray-600 "><img src="./images/profile-study.png" class="w-6"><p class="px-5">Director at 99 media limited</p></div>
+                                <div class="flex mb-2 text-gray-600 "><img src="./images/profile-study.png" class="w-6"><p class="px-5">Director at 99 media limited</p></div>
+                                <div class="flex mb-2 text-gray-600 "><img src="./images/profile-study.png" class="w-6"><p class="px-5">Director at 99 media limited</p></div>
+                                
+                            </div>
+                        </div>
+                        <div class="flex flex-col justify-items-start w-full p-3 bg-white mb-6">
+                            <div class="flex justify-between items-center w-full ">
+                                <p class="font-bold">Photos</p>
+                                <p class="text-blue-400">See all</p>
+                            </div>
+                            <div class="flex justify-items-start items-center flex-wrap w-full">
+                                <img src="./images/photo1.png" class="size-20 mx-2 my-3">
+                                <img src="./images/photo2.png" class="size-20 mx-2 my-3">
+                                <img src="./images/photo3.png" class="size-20 mx-2 my-3">
+                                <img src="./images/photo4.png" class="size-20 mx-2 my-3">
+                                <img src="./images/photo5.png" class="size-20 mx-2 my-3">
+                                <img src="./images/photo6.png" class="size-20 mx-2 my-3">
+                            </div>
+                        </div>
+
+
+                        <div class="w-full flex flex-col bg-white rounded p-3 ">
+                            <div class="flex w-full  mb-6">
+                                <div class="w-[50%] flex flex-col justify-items-start ">
+                                    <p class="font-bold">Friends</p>
+                                    <p class="text-gray-600">120(90 mutual)</p>
+                                </div>
+                                <div class="w-[50%] flex justify-end items-center">
+                                    <p class="text-blue-400">See all</p>
+                                </div>
+                            </div>
+
+                            <div class="w-full flex flex-wrap justify-center ">
+                                <div class="mb-2 flex flex-col justify-center items-center mx-2 ">
+                                    <img src="./images/member-1.png" class="size-20 mb-2">
+                                    <p class="text-gray-500">Alison </p>
+                                </div>
+                                <div class="mb-2 flex flex-col justify-center items-center mx-2 ">
+                                    <img src="./images/member-2.png" class="size-20 mb-2">
+                                    <p class="text-gray-500">Burger</p>
+                                </div>
+                                <div class="mb-2 flex flex-col justify-center items-center mx-2 ">
+                                    <img src="./images/member-3.png" class="size-20 mb-2">
+                                    <p class="text-gray-500">Nicholas</p>
+                                </div>
+                                <div class="mb-2 flex flex-col justify-center items-center mx-2 ">
+                                    <img src="./images/member-4.png" class="size-20 mb-2">
+                                    <p class="text-gray-500">John</p>
+                                </div>
+                                <div class="mb-2 flex flex-col justify-center items-center mx-2 ">
+                                    <img src="./images/member-5.png" class="size-20 mb-2">
+                                    <p class="text-gray-500">Mark</p>
+                                </div>
+                                <div class="mb-2 flex flex-col justify-center items-center mx-2 ">
+                                    <img src="./images/member-6.png" class="size-20 mb-2">
+                                    <p class="text-gray-500">Mathew</p>
+                                </div>
+                                <div class="mb-2 flex flex-col justify-center items-center mx-2 ">
+                                    <img src="./images/member-7.png" class="size-20 mb-2">
+                                    <p class="text-gray-500">John</p>
+                                </div>
+                                <div class="mb-2 flex flex-col justify-center items-center mx-2 ">
+                                    <img src="./images/member-8.png" class="size-20 mb-2">
+                                    <p class="text-gray-500">Luke</p>
+                                </div>
+                                <div class="mb-2 flex flex-col justify-center items-center mx-2 ">
+                                    <img src="./images/member-9.png" class="size-20 mb-2">
+                                    <p class="text-gray-500">kaisi</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="w-[60%]  m-3">
+
+                        <div class="w-full bg-white flex flex-col  p-4 mb-4 rounded">
+          
+                            <div class="flex  ">
+                                <img src="./images/profile-pic.png" class="size-8 rounded-full">
+                                <div class="flex flex-col pl-2">
+                                    <h1>John Nicolson</h1>
+                                    <p class="text-gray-600 mb-3">Public <i class="ri-arrow-down-s-fill"></i></p>
+                                
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col pl-10 mb-5">
+                                <p class="text-gray-600">Whats on your mind ,Jack!</p>
+                                <input type="text" class="border-b-2  border-gray-300 outline-0">
+                            </div>
+
+                            <div class="flex justify-between items-center pl-10">
+
+                                <div class="flex justify-center items-center">
+                                    <img src="./images/live-video.png" class="size-[15%] ">
+                                    <p class="pl-2">Live Video</p>
+                                </div>
+                                
+                                <div class="flex justify-center items-center">
+                                    <img src="./images/photo.png" class="size-[15%] ">
+                                    <p class="pl-2">Photos/Video</p>
+                                </div>
+
+                                <div class="flex justify-center items-center">
+                                    <img src="./images/feeling.png" class="size-[15%] ">
+                                    <p class="pl-2">Feeling/Activiy</p>
+                                </div>
+
+                            </div>
+                            
+                        </div>
+
+
+                        
+
+                    <div class="w-full h-auto bg-white flex flex-col justify-start p-4 mb-4 items-center ">
+                        <div class=" flex justify-between w-full items-center ">
+                            <div class="flex ">
+                                <img src="./images/profile-pic.png" class="size-8 rounded-full ">
+                                <div class="pl-4">
+                                    <p>John Nicholson</p>
+                                    <p class="text-gray-500"> June 24 2021, 12:30 AM</p>
+                                </div>
+                            </div>
+                            <div><i class="ri-more-2-line text-bold"></i></div>
+                        </div>
+                        <p class="py-3">Subscribe <strong>@Easy Tutorials</strong> Youtube channel to watch more videos on website development and UI designs <span class="text-blue-500">#EasyTutorials#YoutubeChannel</span></p>
+                        <img src="./images/feed-image-1.png" class="py-2 rounded">
+                        <div class="w-full h-auto flex justify-between items-center">
+                            <div class="flex justify-center items-center">
+                                <div class="pr-4 text-gray-500"><i class="ri-thumb-up-fill text-blue-700 pr-2"></i>20</div>
+                                <div class="pr-4  text-gray-500"><i class="ri-chat-1-fill pr-2 "></i>21</div>
+                                <div class="pr-4  text-gray-500"><i class="ri-share-forward-fill pr-2 "></i>30</div>
+                            </div>
+                            <div class="flex">
+                                <img src="./images/profile-pic.png" class="size-4 rounded-full ">
+                                <i class="ri-arrow-down-s-fill px-2"></i>
+                            </div>
+                        </div>
+                     </div>
+
+
+                    <div class="w-full h-auto bg-white flex flex-col justify-start p-4 mb-4 items-center ">
+                        <div class=" flex justify-between w-full items-center ">
+                            <div class="flex ">
+                                <img src="./images/profile-pic.png" class="size-8 rounded-full ">
+                                <div class="pl-4">
+                                    <p>John Nicholson</p>
+                                    <p class="text-gray-500"> June 24 2021, 12:30 AM</p>
+                                </div>
+                            </div>
+                            <div><i class="ri-more-2-line text-bold"></i></div>
+                        </div>
+                        <p class="py-3">Subscribe <strong>@Easy Tutorials</strong> Youtube channel to watch more videos on website development and UI designs <span class="text-blue-500">#EasyTutorials#YoutubeChannel</span></p>
+                        <img src="./images/feed-image-1.png" class="py-2 rounded">
+                        <div class="w-full h-auto flex justify-between items-center">
+                            <div class="flex justify-center items-center">
+                                <div class="pr-4 text-gray-500"><i class="ri-thumb-up-fill text-blue-700 pr-2"></i>20</div>
+                                <div class="pr-4  text-gray-500"><i class="ri-chat-1-fill pr-2 "></i>21</div>
+                                <div class="pr-4  text-gray-500"><i class="ri-share-forward-fill pr-2 "></i>30</div>
+                            </div>
+                            <div class="flex">
+                                <img src="./images/profile-pic.png" class="size-4 rounded-full ">
+                                <i class="ri-arrow-down-s-fill px-2"></i>
+                            </div>
+                        </div>
+                     </div>
+
+
+                    <div class="w-full h-auto bg-white flex flex-col justify-start p-4 mb-4 items-center ">
+                        <div class=" flex justify-between w-full items-center ">
+                            <div class="flex ">
+                                <img src="./images/profile-pic.png" class="size-8 rounded-full ">
+                                <div class="pl-4">
+                                    <p>John Nicholson</p>
+                                    <p class="text-gray-500"> June 24 2021, 12:30 AM</p>
+                                </div>
+                            </div>
+                            <div><i class="ri-more-2-line text-bold"></i></div>
+                        </div>
+                        <p class="py-3">Subscribe <strong>@Easy Tutorials</strong> Youtube channel to watch more videos on website development and UI designs <span class="text-blue-500">#EasyTutorials#YoutubeChannel</span></p>
+                        <img src="./images/feed-image-1.png" class="py-2 rounded">
+                        <div class="w-full h-auto flex justify-between items-center">
+                            <div class="flex justify-center items-center">
+                                <div class="pr-4 text-gray-500"><i class="ri-thumb-up-fill text-blue-700 pr-2"></i>20</div>
+                                <div class="pr-4  text-gray-500"><i class="ri-chat-1-fill pr-2 "></i>21</div>
+                                <div class="pr-4  text-gray-500"><i class="ri-share-forward-fill pr-2 "></i>30</div>
+                            </div>
+                            <div class="flex">
+                                <img src="./images/profile-pic.png" class="size-4 rounded-full ">
+                                <i class="ri-arrow-down-s-fill px-2"></i>
+                            </div>
+                        </div>
+                     </div>
+
+
+                    <div class="w-full h-auto bg-white flex flex-col justify-start p-4 mb-4 items-center ">
+                        <div class=" flex justify-between w-full items-center ">
+                            <div class="flex ">
+                                <img src="./images/profile-pic.png" class="size-8 rounded-full ">
+                                <div class="pl-4">
+                                    <p>John Nicholson</p>
+                                    <p class="text-gray-500"> June 24 2021, 12:30 AM</p>
+                                </div>
+                            </div>
+                            <div><i class="ri-more-2-line text-bold"></i></div>
+                        </div>
+                        <p class="py-3">Subscribe <strong>@Easy Tutorials</strong> Youtube channel to watch more videos on website development and UI designs <span class="text-blue-500">#EasyTutorials#YoutubeChannel</span></p>
+                        <img src="./images/feed-image-1.png" class="py-2 rounded">
+                        <div class="w-full h-auto flex justify-between items-center">
+                            <div class="flex justify-center items-center">
+                                <div class="pr-4 text-gray-500"><i class="ri-thumb-up-fill text-blue-700 pr-2"></i>20</div>
+                                <div class="pr-4  text-gray-500"><i class="ri-chat-1-fill pr-2 "></i>21</div>
+                                <div class="pr-4  text-gray-500"><i class="ri-share-forward-fill pr-2 "></i>30</div>
+                            </div>
+                            <div class="flex">
+                                <img src="./images/profile-pic.png" class="size-4 rounded-full ">
+                                <i class="ri-arrow-down-s-fill px-2"></i>
+                            </div>
+                        </div>
+                     </div>
+
+
+                    <div class="w-full h-auto bg-white flex flex-col justify-start p-4 mb-4 items-center ">
+                        <div class=" flex justify-between w-full items-center ">
+                            <div class="flex ">
+                                <img src="./images/profile-pic.png" class="size-8 rounded-full ">
+                                <div class="pl-4">
+                                    <p>John Nicholson</p>
+                                    <p class="text-gray-500"> June 24 2021, 12:30 AM</p>
+                                </div>
+                            </div>
+                            <div><i class="ri-more-2-line text-bold"></i></div>
+                        </div>
+                        <p class="py-3">Subscribe <strong>@Easy Tutorials</strong> Youtube channel to watch more videos on website development and UI designs <span class="text-blue-500">#EasyTutorials#YoutubeChannel</span></p>
+                        <img src="./images/feed-image-1.png" class="py-2 rounded">
+                        <div class="w-full h-auto flex justify-between items-center">
+                            <div class="flex justify-center items-center">
+                                <div class="pr-4 text-gray-500"><i class="ri-thumb-up-fill text-blue-700 pr-2"></i>20</div>
+                                <div class="pr-4  text-gray-500"><i class="ri-chat-1-fill pr-2 "></i>21</div>
+                                <div class="pr-4  text-gray-500"><i class="ri-share-forward-fill pr-2 "></i>30</div>
+                            </div>
+                            <div class="flex">
+                                <img src="./images/profile-pic.png" class="size-4 rounded-full ">
+                                <i class="ri-arrow-down-s-fill px-2"></i>
+                            </div>
+                        </div>
+                     </div>
+
+
+                    <div class="w-full h-auto bg-white flex flex-col justify-start p-4 mb-4 items-center ">
+                        <div class=" flex justify-between w-full items-center ">
+                            <div class="flex ">
+                                <img src="./images/profile-pic.png" class="size-8 rounded-full ">
+                                <div class="pl-4">
+                                    <p>John Nicholson</p>
+                                    <p class="text-gray-500"> June 24 2021, 12:30 AM</p>
+                                </div>
+                            </div>
+                            <div><i class="ri-more-2-line text-bold"></i></div>
+                        </div>
+                        <p class="py-3">Subscribe <strong>@Easy Tutorials</strong> Youtube channel to watch more videos on website development and UI designs <span class="text-blue-500">#EasyTutorials#YoutubeChannel</span></p>
+                        <img src="./images/feed-image-1.png" class="py-2 rounded">
+                        <div class="w-full h-auto flex justify-between items-center">
+                            <div class="flex justify-center items-center">
+                                <div class="pr-4 text-gray-500"><i class="ri-thumb-up-fill text-blue-700 pr-2"></i>20</div>
+                                <div class="pr-4  text-gray-500"><i class="ri-chat-1-fill pr-2 "></i>21</div>
+                                <div class="pr-4  text-gray-500"><i class="ri-share-forward-fill pr-2 "></i>30</div>
+                            </div>
+                            <div class="flex">
+                                <img src="./images/profile-pic.png" class="size-4 rounded-full ">
+                                <i class="ri-arrow-down-s-fill px-2"></i>
+                            </div>
+                        </div>
+                     </div>
+
+
+                    <div class="w-full h-auto bg-white flex flex-col justify-start p-4 mb-4 items-center ">
+                        <div class=" flex justify-between w-full items-center ">
+                            <div class="flex ">
+                                <img src="./images/profile-pic.png" class="size-8 rounded-full ">
+                                <div class="pl-4">
+                                    <p>John Nicholson</p>
+                                    <p class="text-gray-500"> June 24 2021, 12:30 AM</p>
+                                </div>
+                            </div>
+                            <div><i class="ri-more-2-line text-bold"></i></div>
+                        </div>
+                        <p class="py-3">Subscribe <strong>@Easy Tutorials</strong> Youtube channel to watch more videos on website development and UI designs <span class="text-blue-500">#EasyTutorials#YoutubeChannel</span></p>
+                        <img src="./images/feed-image-1.png" class="py-2 rounded">
+                        <div class="w-full h-auto flex justify-between items-center">
+                            <div class="flex justify-center items-center">
+                                <div class="pr-4 text-gray-500"><i class="ri-thumb-up-fill text-blue-700 pr-2"></i>20</div>
+                                <div class="pr-4  text-gray-500"><i class="ri-chat-1-fill pr-2 "></i>21</div>
+                                <div class="pr-4  text-gray-500"><i class="ri-share-forward-fill pr-2 "></i>30</div>
+                            </div>
+                            <div class="flex">
+                                <img src="./images/profile-pic.png" class="size-4 rounded-full ">
+                                <i class="ri-arrow-down-s-fill px-2"></i>
+                            </div>
+                        </div>
+                     </div>
+
+
+                    <div class="w-full h-auto bg-white flex flex-col justify-start p-4 mb-4 items-center ">
+                        <div class=" flex justify-between w-full items-center ">
+                            <div class="flex ">
+                                <img src="./images/profile-pic.png" class="size-8 rounded-full ">
+                                <div class="pl-4">
+                                    <p>John Nicholson</p>
+                                    <p class="text-gray-500"> June 24 2021, 12:30 AM</p>
+                                </div>
+                            </div>
+                            <div><i class="ri-more-2-line text-bold"></i></div>
+                        </div>
+                        <p class="py-3">Subscribe <strong>@Easy Tutorials</strong> Youtube channel to watch more videos on website development and UI designs <span class="text-blue-500">#EasyTutorials#YoutubeChannel</span></p>
+                        <img src="./images/feed-image-1.png" class="py-2 rounded">
+                        <div class="w-full h-auto flex justify-between items-center">
+                            <div class="flex justify-center items-center">
+                                <div class="pr-4 text-gray-500"><i class="ri-thumb-up-fill text-blue-700 pr-2"></i>20</div>
+                                <div class="pr-4  text-gray-500"><i class="ri-chat-1-fill pr-2 "></i>21</div>
+                                <div class="pr-4  text-gray-500"><i class="ri-share-forward-fill pr-2 "></i>30</div>
+                            </div>
+                            <div class="flex">
+                                <img src="./images/profile-pic.png" class="size-4 rounded-full ">
+                                <i class="ri-arrow-down-s-fill px-2"></i>
+                            </div>
+                        </div>
+                     </div>
+
+
+                    <div class="w-full h-auto bg-white flex flex-col justify-start p-4 mb-4 items-center ">
+                        <div class=" flex justify-between w-full items-center ">
+                            <div class="flex ">
+                                <img src="./images/profile-pic.png" class="size-8 rounded-full ">
+                                <div class="pl-4">
+                                    <p>John Nicholson</p>
+                                    <p class="text-gray-500"> June 24 2021, 12:30 AM</p>
+                                </div>
+                            </div>
+                            <div><i class="ri-more-2-line text-bold"></i></div>
+                        </div>
+                        <p class="py-3">Subscribe <strong>@Easy Tutorials</strong> Youtube channel to watch more videos on website development and UI designs <span class="text-blue-500">#EasyTutorials#YoutubeChannel</span></p>
+                        <img src="./images/feed-image-1.png" class="py-2 rounded">
+                        <div class="w-full h-auto flex justify-between items-center">
+                            <div class="flex justify-center items-center">
+                                <div class="pr-4 text-gray-500"><i class="ri-thumb-up-fill text-blue-700 pr-2"></i>20</div>
+                                <div class="pr-4  text-gray-500"><i class="ri-chat-1-fill pr-2 "></i>21</div>
+                                <div class="pr-4  text-gray-500"><i class="ri-share-forward-fill pr-2 "></i>30</div>
+                            </div>
+                            <div class="flex">
+                                <img src="./images/profile-pic.png" class="size-4 rounded-full ">
+                                <i class="ri-arrow-down-s-fill px-2"></i>
+                            </div>
+                        </div>
+                     </div>
+
+
+                    <div class="w-full h-auto bg-white flex flex-col justify-start p-4 mb-4 items-center ">
+                        <div class=" flex justify-between w-full items-center ">
+                            <div class="flex ">
+                                <img src="./images/profile-pic.png" class="size-8 rounded-full ">
+                                <div class="pl-4">
+                                    <p>John Nicholson</p>
+                                    <p class="text-gray-500"> June 24 2021, 12:30 AM</p>
+                                </div>
+                            </div>
+                            <div><i class="ri-more-2-line text-bold"></i></div>
+                        </div>
+                        <p class="py-3">Subscribe <strong>@Easy Tutorials</strong> Youtube channel to watch more videos on website development and UI designs <span class="text-blue-500">#EasyTutorials#YoutubeChannel</span></p>
+                        <img src="./images/feed-image-1.png" class="py-2 rounded">
+                        <div class="w-full h-auto flex justify-between items-center">
+                            <div class="flex justify-center items-center">
+                                <div class="pr-4 text-gray-500"><i class="ri-thumb-up-fill text-blue-700 pr-2"></i>20</div>
+                                <div class="pr-4  text-gray-500"><i class="ri-chat-1-fill pr-2 "></i>21</div>
+                                <div class="pr-4  text-gray-500"><i class="ri-share-forward-fill pr-2 "></i>30</div>
+                            </div>
+                            <div class="flex">
+                                <img src="./images/profile-pic.png" class="size-4 rounded-full ">
+                                <i class="ri-arrow-down-s-fill px-2"></i>
+                            </div>
+                        </div>
+                     </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+
+
+
 
         </div>
     </div>
